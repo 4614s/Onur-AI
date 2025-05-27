@@ -22,10 +22,6 @@
       display: flex;
       justify-content: start;
       flex-wrap: wrap;
-      box-shadow:
-      0 5px 0 rgba(0, 0, 0, 0.1),
-      0 8px 0 rgba(0, 0, 0, 0.1),
-      0 16px 0 rgba(0, 0, 0, 0.05); 
     }
     #soru{
       color: white;
@@ -40,11 +36,7 @@
       margin-left: auto;
       margin-bottom: 15px;
       margin-top: 15px;
-      box-shadow:
-      0 5px 0 rgba(0, 0, 0, 0.1),
-      0 8px 0 rgba(0, 0, 0, 0.1),
-      0 16px 0 rgba(0, 0, 0, 0.05); 
-    }
+      }
   </style>
 </head>
 <body>
@@ -63,9 +55,7 @@
   let mesaj = document.getElementById("mesaj");
   let soru1 = prompt("Bir şey yazın...");
 
-  // Eğer iptal edildi ya da sadece boşluk yazıldıysa
   if (!soru1 || !soru1.trim()) {
-    document.getElementById("soru").textContent = "(boş)";
     mesaj.textContent = "Sadece boş bir şey yazdınız. Bana soru sormaktan çekinmeyin.";
   } else {
     let soru = soru1.toLowerCase().trim();
