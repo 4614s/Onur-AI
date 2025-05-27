@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Onur AI (demo)</title>
+  <title>Onur AI </title>
   <style>
     body{
      background: white; 
@@ -19,18 +19,39 @@
       width: 60%;
       display: flex;
       justify-content: start;
+      flex-wrap: wrap;
+    }
+    #soru{
+      background: gray;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      width: 60%;
+      display: flex;
+      justify-content: end;
+      flex-wrap: wrap;
     }
   </style>
 </head>
 <body>
+  <div id="soru" >
+    
+  </div>
   <div id="mesaj">
     
   </div>
+  <br/>
+  <p>Not: Onur AI ,:;?!#@ ve benzeri işaretleri bilmiyor.Ama büyük küçük harf fark etmeksizin sorunuzu anlarsa cevabını veriyor. <br/>
+  Yani Onur AI Şu soruya cevap veremezken "Merhaba!" bu soruya bile cevap verebiliyor. "MERhaba" 
+  </p>
   <script src="cevaplar.js"></script>
   <script>
   let mesaj = document.getElementById("mesaj");
   let soru = prompt("Bir şey yazın...").toLowerCase();
-  
+
+  document.getElementById("soru").textContent = soru;
+    
   if (cevaplar[soru]){
     mesaj.textContent = cevaplar[soru];
   } else {
