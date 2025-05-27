@@ -59,23 +59,26 @@
   Yani Onur AI Şu soruya cevap veremezken "Merhaba!" bu soruya bile cevap verebiliyor. "MERhaba" 
   </h6>
   <script src="cevaplar.js"></script>
-  <script>
+ <script>
   let mesaj = document.getElementById("mesaj");
   let soru1 = prompt("Bir şey yazın...");
-  let soru = soru1.toLowerCase();
 
-  document.getElementById("soru").textContent = soru1;
-    
-  if (cevaplar[soru]){
-    mesaj.textContent = cevaplar[soru];
+  // Eğer iptal edildi ya da sadece boşluk yazıldıysa
+  if (!soru1 || !soru1.trim()) {
+    document.getElementById("soru").textContent = "(boş)";
+    mesaj.textContent = "Sadece boş bir şey yazdınız. Bana soru sormaktan çekinmeyin.";
   } else {
-  let ornekSorular = Object.keys(cevaplar).slice(0,10).join(", ");
-  mesaj.textContent = `Kusura bakma, bunu anlamadım. Başka bir soru sorabilir misin? Örnek sorular: ${ornekSorular}`;
+    let soru = soru1.toLowerCase().trim();
+    document.getElementById("soru").textContent = soru1;
+
+    if (cevaplar[soru]) {
+      mesaj.textContent = cevaplar[soru];
+    } else {
+      let ornekSorular = Object.keys(cevaplar).slice(0, 10).join(", ");
+      mesaj.textContent = `Kusura bakma, bunu anlamadım. Başka bir soru sorabilir misin? Örnek sorular: ${ornekSorular}`;
+    }
   }
-  if (!soru.trim()){
-   mesaj.textContent = "Sadece boş birşey yazdınız. Bana soru sormaktan çekinmeyin.";
-    return;
-  } else {}
-  </script>
+ </script>
+  
 </body>
 </html>
