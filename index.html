@@ -70,7 +70,7 @@
   if (!soru1 || !soru1.trim()) {
     mesaj.textContent = "Sadece boş bir şey yazdınız. Bana soru sormaktan çekinmeyin.";
   } else {
-    let soru = soru1.toLowerCaseTR().trim();
+    let soru = soru1.toLowerCaseTR(soru1).trim();
     document.getElementById("soru").textContent = soru1;
 
     if (cevaplar[soru]) {
