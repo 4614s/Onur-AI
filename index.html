@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Onur AI (demo)</title>
+  <style>
+    body{
+     background: white; 
+    }
+    #mesaj{
+      background: linear-gradient(180deg,blue,lightblue);
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      color: white;
+      width: 60%;
+      display: flex;
+      justify-content: start;
+    }
+  </style>
+</head>
+<body>
+  <div id="mesaj">
+    
+  </div>
+  <script src="cevaplar.js"></script>
+  <script>
+  let mesaj = document.getElementById("mesaj");
+  let soru = prompt("Bir şey yazın...").toLowerCase();
+  
+  if (cevaplar[soru]){
+    mesaj.textContent = cevaplar[soru];
+  } else {
+    mesaj.textContent = "Kusura bakma, bunu anlamadım. Başka bir soru sorabilir misin?";
+  }
+  </script>
+</body>
+</html>
