@@ -34,7 +34,7 @@
   if (cevaplar[soru]){
     mesaj.textContent = cevaplar[soru];
   } else {
-  let ornekSorular = Object.keys(cevaplar).join(", ");
+  let ornekSorular = Object.keys(cevaplar).slice(0,10).join(", ");
   mesaj.textContent = `Kusura bakma, bunu anlamadım. Başka bir soru sorabilir misin? Örnek sorular: ${ornekSorular}`;
   }
   </script>
