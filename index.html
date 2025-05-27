@@ -55,10 +55,22 @@
   let mesaj = document.getElementById("mesaj");
   let soru1 = prompt("Bir şey yazın...");
 
+  function toLowerCaseTR(str) {
+  return str
+    .replace(/İ/g, 'i')  
+    .replace(/I/g, 'ı')  
+    .replace(/Ş/g, 'ş')
+    .replace(/Ğ/g, 'ğ')
+    .replace(/Ü/g, 'ü')
+    .replace(/Ö/g, 'ö')
+    .replace(/Ç/g, 'ç')
+    .toLowerCase();
+  }
+   
   if (!soru1 || !soru1.trim()) {
     mesaj.textContent = "Sadece boş bir şey yazdınız. Bana soru sormaktan çekinmeyin.";
   } else {
-    let soru = soru1.toLowerCase().trim();
+    let soru = soru1.toLowerCaseTR().trim();
     document.getElementById("soru").textContent = soru1;
 
     if (cevaplar[soru]) {
