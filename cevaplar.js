@@ -11,7 +11,7 @@ let cevaplar = {
   "neden çok az soruya cevap verebiliyorsun": "Çünkü ben daha yeni çıktım ve belirli sorulara cevap verebiliyorum ama cevap verebildiğim soruların sayısı gün geçtikçe artıyor.",
   "saat kaç": "Saat kaçmaz :)",
   "ai ne demek": "Kısacası yapay zeka, Bende öyle olmak isterim:(",
-  "chatgpt ne": "En iyi 2. yapay zeka! 1. kim biliyorsun :)"
+  "chatgpt ne": "En iyi 2. yapay zeka! 1. kim biliyorsun :)",
   "web sitesi nasıl yapılır": "HTML, CSS ve JavaScript öğrenirsen site yapma konusunda kral olursun! İlk HTML ile başla",
   "javascriptte bu hatayı nasıl çözerim": "Hatalar öğrenmenin gizli eğitmenidir kanki, kodu bi daha oku derim :)",
   "gerçek misin": "Ben kodla yazıldım, gönüllerde yaşıyorum.",
