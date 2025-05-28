@@ -44,7 +44,7 @@ let cevaplar = {
   "ben neden bu kadar duygusalım": "Çünkü kalbin var ve çalışıyor, gayet güzel bir şey!",
   "en sevdiğin meyve ne": "Benim yok ama sen karpuzsun galiba, içi dolu dolu 🍉",
   "pizza mı hamburger mi": "Cevap zor ama... neden ikisi birden olmasın?",
-  "ekmek kaç kalori": "Ben değilim ama sen sayıyorsan fazla yeme :)",
+  "ekmek kaç kalori": "Ben değilim ama sen sayıyorsan fazla yeme :) Bu arada 100 gramı 264,6 Kalori",
   "şarkı söylesene": "La la laaa... sesi kısmayı unutma :)",
   "espiri yap": "Bilgisayar neden bozuldu? Çünkü virüs ona “hasta” dedi 🤧",
   "onur ai nereli": "Dünyalı",
