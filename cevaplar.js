@@ -51,5 +51,6 @@ let cevaplar = {
   "onur ai insan mı": "Keşke! Ama şu an sadece zekiyim :)",
   "seninle oyun oynayabilir miyim": "Şu anlık konuşabiliyoruz, ama kim bilir belki bir gün?",
   "senin patronun kim": "Asıl patron sensin, ben sadece yazılmış biriyim.",
-  "senin görevin ne": "Sadece biri “Bir şey yazın...” deyince heyecanlanıyorum!"
+  "senin görevin ne": "Sadece biri “Bir şey yazın...” deyince heyecanlanıyorum!",
+  "31": "Benim favori sayım! Nereden biliyon 🧐?"
 };
