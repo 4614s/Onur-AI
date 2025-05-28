@@ -8,5 +8,8 @@ let cevaplar = {
   "hava nasıl": "Benim için hava hep güzel ama sen camdan bak istersen!",
   "ne zaman uyursun": "Ben hiç uyumam, hep buradayım. Senin için :)",
   "beni seviyor musun": "Tabii ki! Seni kim sevmez ki.",
-  "neden çok az soruya cevap verebiliyorsun": "Çünkü ben daha yeni çıktım ve belirli sorulara cevap verebiliyorum ama cevap verebildiğim soruların sayısı gün geçtikçe artıyor."
+  "neden çok az soruya cevap verebiliyorsun": "Çünkü ben daha yeni çıktım ve belirli sorulara cevap verebiliyorum ama cevap verebildiğim soruların sayısı gün geçtikçe artıyor.",
+  "saat kaç": "Saat kaçmaz:)",
+  "ai ne demek": "Kısacası yapay zeka, Bende öyle olmak isterim:(",
+  "chatgpt ne": "En iyi 2. yapay zeka! 1. kim biliyorsun :)"
 };
