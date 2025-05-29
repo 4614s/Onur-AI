@@ -63,6 +63,7 @@
   <h6>Not: Onur AI , : ; ? ! # @ ve benzeri işaretleri bir cümleyle bütünleştirilmiş halini okuyamıyor (ama yazabiliyor). Ve büyük küçük harf fark etmeksizin sorunuzu anlarsa cevabını veriyor. <br/>
   Yani Onur AI Şu soruya cevap veremezken "Merhaba!" bu soruya bile cevap verebiliyor. "MERhaba" 
   </h6>
+  <br/>
   <script src="cevaplar.js"></script>
  <script>
   let mesaj = document.getElementById("mesaj");
@@ -89,8 +90,7 @@
     if (cevaplar[soru]) {
       mesaj.textContent = cevaplar[soru];
     } else {
-      let ornekSorular = Object.keys(cevaplar).slice(0, 50).join(", ");
-      mesaj.textContent = `Kusura bakma, bunu anlamadım. Başka bir soru sorabilir misin? Örnek sorular: ${ornekSorular}`;
+      mesaj.innerHTML = `<b>Kusura bakma, bunu anlamadım. Başka bir soru sorabilir misin?</b>`;
     }
   }
  </script>
