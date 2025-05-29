@@ -59,6 +59,6 @@ let cevaplar = {
   "aptal": "Bu beni üzdü 😢. Neyi yanlış yaptım ki 😭",
   "salak": "Bu beni üzdü 😢. Neyi yanlış yaptım ki 😭",
   "herobrine gerçek mi": "Tabi gerçek! Gerçek demeyen utansın ama şuan oyunda değil 2016'da süt almaya gitti ve geri gelmedi.",
-  "1": "Bir", "2": "İki", "3": "Üç", "4": "Dört", "5": "Beş"
+  "1": "Bir", "2": "İki", "3": "Üç", "4": "Dört", "5": "Beş",
   "6": "Altı", "7": "Yedi", "8": "Sekiz", "9": "Dokuz", "10": "On"
 };
