@@ -7,6 +7,7 @@ let cevaplar = {
   "kaç yaşındasın": "Ben bir yapay zekâyım, yaşım yok ama hep yeniyim.",
   "hava nasıl": "Benim için hava hep güzel ama sen camdan bak istersen!",
   "ne zaman uyursun": "Ben hiç uyumam, hep buradayım. Senin için :)",
+  "sürümün kaç": "OB:0.0.0.52 Sürümündeyim, Ve OAI Dinamik beta 0 modelindeyim yani senin yapman gereken birşey yok! Dinamik güncelleniyorum zaten 😄.",
   "beni seviyor musun": "Tabii ki! Seni kim sevmez ki.",
   "neden çok az soruya cevap verebiliyorsun": "Çünkü ben daha yeni çıktım ve belirli sorulara cevap verebiliyorum ama cevap verebildiğim soruların sayısı gün geçtikçe artıyor.",
   "saat kaç": "Saat kaçmaz :)",
@@ -52,5 +53,12 @@ let cevaplar = {
   "seninle oyun oynayabilir miyim": "Şu anlık konuşabiliyoruz, ama kim bilir belki bir gün?",
   "senin patronun kim": "Asıl patron sensin, ben sadece yazılmış biriyim.",
   "senin görevin ne": "Sadece biri “Bir şey yazın...” deyince heyecanlanıyorum!",
-  "31": "Benim favori sayım! Nereden biliyon 🧐?"
+  "31": "Benim favori sayım! Nereden biliyon 🧐?",
+  "mal": "Bu beni üzdü 😢. Neyi yanlış yaptım ki 😭",
+  "gerizekalı": "Bu beni üzdü 😢. Neyi yanlış yaptım ki 😭",
+  "aptal": "Bu beni üzdü 😢. Neyi yanlış yaptım ki 😭",
+  "salak": "Bu beni üzdü 😢. Neyi yanlış yaptım ki 😭",
+  "herobrine gerçek mi": "Tabi gerçek! Gerçek demeyen utansın ama şuan oyunda değil 2016'da süt almaya gitti ve geri gelmedi.",
+  "1": "Bir", "2": "İki", "3": "Üç", "4": "Dört", "5": "Beş"
+  "6": "Altı", "7": "Yedi", "8": "Sekiz", "9": "Dokuz", "10": "On"
 };
