@@ -1,7 +1,8 @@
-let yil = new Date().getFullYear();
-let saat = new Date().getHours();
-let dakika = new Date().getMinutes();
-let saniye = new Date().getSeconds();
+let tarih = new Date();
+let yil = tarih.getFullYear();
+let saat = tarih.getHours().toString().padStart(2, "0");
+let dakika = tarih.getMinutes().toString().padStart(2, "0");
+let saniye = tarih.getSeconds().toString().padStart(2, "0");
 
 // Cevaplar
 let cevaplar = {
