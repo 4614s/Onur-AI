@@ -1,3 +1,9 @@
+let yil = new Date().getFullYear();
+let saat = new Date().getHours();
+let dakika = new Date().getMinutes();
+let saniye = new Date().getSeconds();
+
+// Cevaplar
 let cevaplar = {
   "merhaba": "Merhaba! Sana nasıl yardımcı olabilirim?",
   "nasılsın": "İyiyim, teşekkür ederim! Sen nasılsın?",
@@ -7,10 +13,10 @@ let cevaplar = {
   "kaç yaşındasın": "Ben bir yapay zekâyım, yaşım yok ama hep yeniyim.",
   "hava nasıl": "Benim için hava hep güzel ama sen camdan bak istersen!",
   "ne zaman uyursun": "Ben hiç uyumam, hep buradayım. Senin için :)",
-  "sürümün kaç": "OB:0.0.0.52 Sürümündeyim, Ve OAI Dinamik beta 0 modelindeyim yani senin yapman gereken birşey yok! Dinamik güncelleniyorum zaten 😄.",
   "beni seviyor musun": "Tabii ki! Seni kim sevmez ki.",
   "neden çok az soruya cevap verebiliyorsun": "Çünkü ben daha yeni çıktım ve belirli sorulara cevap verebiliyorum ama cevap verebildiğim soruların sayısı gün geçtikçe artıyor.",
-  "saat kaç": "Saat kaçmaz :)",
+  "saat kaç": `Saat: ${saat}:${dakika}:${saniye}`,
+  "hangi yıldayız": `${yil}`,
   "ai ne demek": "Kısacası yapay zeka, Bende öyle olmak isterim:(",
   "chatgpt ne": "En iyi 2. yapay zeka! 1. kim biliyorsun :)",
   "web sitesi nasıl yapılır": "HTML, CSS ve JavaScript öğrenirsen site yapma konusunda kral olursun! İlk HTML ile başla",
